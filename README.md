@@ -1,4 +1,4 @@
-[![EMBERCORE](./assets/maquette_embger_mind.png)]
+[![EMBERCORE](./assets/logo.png)]
 
 
 # EmberCore
