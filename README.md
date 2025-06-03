@@ -1,4 +1,4 @@
-[![EMBERCORE](./assets/logo.png)]
+[![EMBERCORE](./assets/logo.jpg)]
 
 
 # EmberCore
