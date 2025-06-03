@@ -1,4 +1,4 @@
-[![EMBERCORE](assets\maquette_embger_mind.png)]
+[![EMBERCORE](./assets/maquette_embger_mind.png)]
 
 
 # EmberCore
@@ -24,20 +24,12 @@
 
 - Node.js >= 18
 - npm ou yarn
-- Un backend RAG/LLM accessible (ex : proxy Sephard)
-
-### Setup
-
-```bash
-git clone https://github.com/tonpseudo/embercore.git
-cd embercore
-npm install
-npm run dev
+- Sheperd installé sur la rasberry pi
 
 
-```
 
-L’application sera accessible sur http://localhost:3000
+
+---
 
 ### Usage
 
@@ -51,17 +43,21 @@ Basculez entre le mode RAG ou LLM selon vos besoins.
 
 Consultez l’historique de vos conversations.
 
+
+---
+
 ### Architecture
 
 
 Frontend : React avec Tailwind CSS, composants UI modulaires.
 
-Backend : Proxy API vers Sephard (RAG + LLM).
+Backend : Proxy API vers Sepherd (RAG + LLM).
 
 Stockage : Historique local / Cloud (à implémenter selon besoin).
 
 Upload : Gestion des fichiers avec indexation dans la base documentaire.
 
+---
 ### Contribution
 
 
@@ -81,8 +77,12 @@ Push vers ta branche (git push origin feature/ma-fonctionnalite)
 
 Ouvre une Pull Request
 
+---
+
 ### Licence
 Ce projet est sous licence MIT. Voir le fichier LICENSE pour plus d’informations.
+
+---
 
 ### Contact
 Pour toute question, feedback ou collaboration, contacte-moi sur [ton-email@example.com] ou via GitHub.
