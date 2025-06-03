@@ -1,3 +1,6 @@
+[![EMBERCORE](assets\maquette_embger_mind.png)]
+
+
 # EmberCore
 
 **EmberCore** est une application mobile moderne qui fournit une interface de chat intuitive pour interagir avec un système RAG (Retrieval-Augmented Generation) et des modèles de langage (LLM). Conçue pour être à la fois puissante et chaleureuse, EmberCore facilite l’accès aux connaissances contextualisées, l’interrogation intelligente et la gestion documentaire.
