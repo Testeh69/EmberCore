@@ -1,50 +1,85 @@
-# Welcome to your Expo app 👋
+# EmberCore
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+**EmberCore** est une application mobile moderne qui fournit une interface de chat intuitive pour interagir avec un système RAG (Retrieval-Augmented Generation) et des modèles de langage (LLM). Conçue pour être à la fois puissante et chaleureuse, EmberCore facilite l’accès aux connaissances contextualisées, l’interrogation intelligente et la gestion documentaire.
 
-## Get started
+---
 
-1. Install dependencies
+## Fonctionnalités principales
 
-   ```bash
-   npm install
-   ```
+- **Chat intelligent** : Posez des questions et recevez des réponses générées par le LLM, enrichies par des documents contextualisés via RAG.
+- **Multi-source** : Choisissez d’interroger soit le RAG (avec contexte documentaire), soit le LLM brut.
+- **Upload de documents** : Ajoutez facilement vos propres documents (PDF, TXT, DOCX) pour enrichir la base de connaissances.
+- **Historique des conversations** : Sauvegarde et navigation entre vos sessions de chat.
+- **Interface moderne** : Design épuré et chaleureux, avec une palette rouge/orange, pensé pour un usage mobile fluide.
+- **Accessibilité** : Mode clair/sombre, clavier optimisé, interaction rapide.
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+## Installation
 
-In the output, you'll find options to open the app in a
+### Prérequis
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- Node.js >= 18
+- npm ou yarn
+- Un backend RAG/LLM accessible (ex : proxy Sephard)
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+### Setup
 
 ```bash
-npm run reset-project
+git clone https://github.com/tonpseudo/embercore.git
+cd embercore
+npm install
+npm run dev
+
+
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+L’application sera accessible sur http://localhost:3000
 
-## Learn more
+### Usage
 
-To learn more about developing your project with Expo, look at the following resources:
+Lancez l’application.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Dans la zone de chat, posez vos questions.
 
-## Join the community
+Utilisez le bouton d’upload pour ajouter des documents.
 
-Join our community of developers creating universal apps.
+Basculez entre le mode RAG ou LLM selon vos besoins.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Consultez l’historique de vos conversations.
+
+### Architecture
+
+
+Frontend : React avec Tailwind CSS, composants UI modulaires.
+
+Backend : Proxy API vers Sephard (RAG + LLM).
+
+Stockage : Historique local / Cloud (à implémenter selon besoin).
+
+Upload : Gestion des fichiers avec indexation dans la base documentaire.
+
+### Contribution
+
+
+Les contributions sont les bienvenues ! 
+
+IMPORTANT: Les taches planifier sont dans le fichier **TODO.txt**
+
+Pour proposer des améliorations ou corriger des bugs :
+
+Fork le repo
+
+Crée une branche feature (git checkout -b feature/ma-fonctionnalite)
+
+Commit tes changements (git commit -m "Ajout de ma fonctionnalité")
+
+Push vers ta branche (git push origin feature/ma-fonctionnalite)
+
+Ouvre une Pull Request
+
+### Licence
+Ce projet est sous licence MIT. Voir le fichier LICENSE pour plus d’informations.
+
+### Contact
+Pour toute question, feedback ou collaboration, contacte-moi sur [ton-email@example.com] ou via GitHub.

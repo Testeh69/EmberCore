@@ -1,0 +1,24 @@
+EmberCore - Todo List
+1. Interface principale - Chat
+
+-Créer la première interface utilisateur de chat
+-Connecter l’interface au proxy Sephard
+-Implémenter la gestion et le log de l’historique des conversations
+-Mettre en place la première connexion sécurisée (authentification, chiffrement)
+
+2. EMBERMINE (Module Parser / Ingestion)
+
+-Développer un algorithme de parsing pour documents PDF, TXT
+-Implémenter l’upload vers la base de données vectorielle
+-Ajouter l’extraction de données à partir d’images (OCR, vision)
+
+3. EMBERMIND (Module LLM - Discussion simple)
+
+-Gérer le log des conversations pour chaque session
+-Permettre la création et la gestion de plusieurs “rooms” ou salons de chat
+
+4. EMBERSEEK (Module RAG - Recherche enrichie)
+
+-Recherche contextuelle dans les documents vectoriels
+-Fusion des réponses RAG avec la génération LLM
+-Optimisation des requêtes et gestion du cache
