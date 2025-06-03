@@ -85,4 +85,4 @@ Ce projet est sous licence MIT. Voir le fichier LICENSE pour plus d’informatio
 ---
 
 ### Contact
-Pour toute question, feedback ou collaboration, contacte-moi sur [ton-email@example.com] ou via GitHub.
+Pour toute question, feedback ou collaboration, contacte-moi sur [norefice45@gmail.com] ou via GitHub.
